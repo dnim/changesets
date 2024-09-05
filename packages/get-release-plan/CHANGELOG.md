@@ -1,5 +1,16 @@
 # @changesets/get-release-plan
 
+## 4.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/config@3.1.0
+  - @changesets/types@6.1.0
+  - @changesets/assemble-release-plan@6.0.5
+  - @changesets/pre@2.0.2
+  - @changesets/read@0.6.2
+
 ## 4.0.4
 
 ### Patch Changes

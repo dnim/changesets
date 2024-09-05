@@ -1,5 +1,17 @@
 # @changesets/config
 
+## 3.1.0
+
+### Minor Changes
+
+- added possibility to loose dependencies during release to major update
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+  - @changesets/get-dependents-graph@2.1.3
+
 ## 3.0.3
 
 ### Patch Changes

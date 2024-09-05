@@ -1,5 +1,14 @@
 # @changesets/release-utils
 
+## 0.2.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+  - @changesets/pre@2.0.2
+  - @changesets/read@0.6.2
+
 ## 0.2.1
 
 ### Patch Changes

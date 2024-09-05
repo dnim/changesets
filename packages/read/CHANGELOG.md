@@ -1,5 +1,13 @@
 # @changesets/read
 
+## 0.6.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+  - @changesets/parse@0.4.1
+
 ## 0.6.1
 
 ### Patch Changes

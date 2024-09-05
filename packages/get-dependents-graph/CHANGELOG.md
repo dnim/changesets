@@ -1,5 +1,12 @@
 # @changesets/get-dependents-graph
 
+## 2.1.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+
 ## 2.1.2
 
 ### Patch Changes

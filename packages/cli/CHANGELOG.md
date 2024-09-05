@@ -1,5 +1,26 @@
 # @changesets/cli
 
+## 2.28.0
+
+### Minor Changes
+
+- added possibility to loose dependencies during release to major update
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/apply-release-plan@7.1.0
+  - @changesets/config@3.1.0
+  - @changesets/types@6.1.0
+  - @changesets/assemble-release-plan@6.0.5
+  - @changesets/get-release-plan@4.0.5
+  - @changesets/changelog-git@0.2.1
+  - @changesets/get-dependents-graph@2.1.3
+  - @changesets/pre@2.0.2
+  - @changesets/read@0.6.2
+  - @changesets/should-skip-package@0.1.2
+  - @changesets/write@0.3.3
+
 ## 2.27.8
 
 ### Patch Changes

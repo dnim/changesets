@@ -1,5 +1,11 @@
 # @changesets/types
 
+## 6.1.0
+
+### Minor Changes
+
+- added possibility to loose dependencies during release to major update
+
 ## 6.0.0
 
 ### Major Changes

@@ -1,5 +1,18 @@
 # @changesets/apply-release-plan
 
+## 7.1.0
+
+### Minor Changes
+
+- added possibility to loose dependencies during release to major update
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/config@3.1.0
+  - @changesets/types@6.1.0
+  - @changesets/should-skip-package@0.1.2
+
 ## 7.0.5
 
 ### Patch Changes

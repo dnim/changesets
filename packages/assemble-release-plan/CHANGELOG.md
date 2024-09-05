@@ -1,5 +1,14 @@
 # @changesets/assemble-release-plan
 
+## 6.0.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+  - @changesets/get-dependents-graph@2.1.3
+  - @changesets/should-skip-package@0.1.2
+
 ## 6.0.4
 
 ### Patch Changes

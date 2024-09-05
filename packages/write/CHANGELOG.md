@@ -1,5 +1,12 @@
 # @changesets/write
 
+## 0.3.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @changesets/types@6.1.0
+
 ## 0.3.2
 
 ### Patch Changes

@@ -8,6 +8,7 @@ import Range from "semver/classes/range";
 import semverPrerelease from "semver/functions/prerelease";
 import validRange from "semver/ranges/valid";
 import { shouldUpdateDependencyBasedOnConfig } from "./utils";
+import { AllowedInternalDependenciesLevels } from "../../types/src";
 
 const DEPENDENCY_TYPES = [
   "dependencies",
@@ -29,7 +30,7 @@ export default function versionPackage(
     bumpVersionsWithWorkspaceProtocolOnly,
     snapshot,
   }: {
-    updateInternalDependencies: "patch" | "minor";
+    updateInternalDependencies: AllowedInternalDependenciesLevels;
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
     bumpVersionsWithWorkspaceProtocolOnly?: boolean;
     snapshot?: string | boolean | undefined;

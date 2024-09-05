@@ -4,6 +4,7 @@ import { ModCompWithPackage } from "@changesets/types";
 import startCase from "lodash.startcase";
 import { shouldUpdateDependencyBasedOnConfig } from "./utils";
 import validRange from "semver/ranges/valid";
+import { AllowedInternalDependenciesLevels } from "../../types/src";
 
 type ChangelogLines = {
   major: Array<Promise<string>>;
@@ -33,7 +34,7 @@ export default async function getChangelogEntry(
     updateInternalDependencies,
     onlyUpdatePeerDependentsWhenOutOfRange,
   }: {
-    updateInternalDependencies: "patch" | "minor";
+    updateInternalDependencies: AllowedInternalDependenciesLevels;
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
   }
 ) {

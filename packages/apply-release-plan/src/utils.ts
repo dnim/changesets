@@ -3,6 +3,7 @@
  */
 import semverSatisfies from "semver/functions/satisfies";
 import { VersionType } from "@changesets/types";
+import { AllowedInternalDependenciesLevels } from "../../types/src";
 
 const bumpTypes = ["none", "patch", "minor", "major"];
 
@@ -32,7 +33,7 @@ export function shouldUpdateDependencyBasedOnConfig(
     minReleaseType,
     onlyUpdatePeerDependentsWhenOutOfRange,
   }: {
-    minReleaseType: "patch" | "minor";
+    minReleaseType: AllowedInternalDependenciesLevels;
     onlyUpdatePeerDependentsWhenOutOfRange: boolean;
   }
 ): boolean {

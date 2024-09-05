@@ -590,12 +590,12 @@ describe("parser errors", () => {
       'The `access` option is set as "private", but this is actually not a valid value - the correct form is "restricted".'
     );
   });
-  test("updateInternalDependencies not patch or minor", () => {
+  test("updateInternalDependencies not patch or minor or major", () => {
     expect(() => {
-      unsafeParse({ updateInternalDependencies: "major" }, defaultPackages);
+      unsafeParse({ updateInternalDependencies: "ga" }, defaultPackages);
     }).toThrowErrorMatchingInlineSnapshot(`
       "Some errors occurred when validating the changesets config:
-      The \`updateInternalDependencies\` option is set as "major" but can only be 'patch' or 'minor'"
+      The \`updateInternalDependencies\` option is set as "ga" but can only be 'patch' or 'minor' or 'major'"
     `);
   });
   test("ignore non-array", () => {
